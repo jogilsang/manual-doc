@@ -10,3 +10,8 @@ for doc
 값 입력
 ctrl + enter
 ```
+
+```
+=IF(OR($H4="o",$J4="o",$K4="o"), "o", "x")
+=IF(AND($F4="o",$G4="o"), "o", "x")
+```
